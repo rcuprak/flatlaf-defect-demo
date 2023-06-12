@@ -1,0 +1,33 @@
+<assembly xmlns="https://urldefense.com/v3/__http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2__;!!FbCVDoc3r24SyHFW!-Ob2zNXjbnOEYFKrrFBmunreGC2Cwt3y0-P5yQvHG32QbcHkYuC1m60IUJZO6VyK_Agd9fyl$[maven[.]apache[.]org]"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 https://urldefense.com/v3/__http://maven.apache.org/xsd/assembly-1.1.2.xsd__;!!FbCVDoc3r24SyHFW!-Ob2zNXjbnOEYFKrrFBmunreGC2Cwt3y0-P5yQvHG32QbcHkYuC1m60IUJZO6VyK_Mxly3b4$[maven[.]apache[.]org]">
+    <id>copy-resources-and-dependencies</id>
+    <formats>
+        <format>dir</format>
+    </formats>
+    <fileSets>
+        <fileSet>
+            <directory>resources</directory>
+            <outputDirectory>deploy</outputDirectory>
+            <includes>
+                <include>Demo.jnlp</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+    <dependencySets>
+        <dependencySet>
+            <outputDirectory>deploy</outputDirectory>
+            <unpack>false</unpack>
+        </dependencySet>
+    </dependencySets>
+    <!--
+    <files>
+        <file>
+            <source>${project.build.directory}/${project.artifactId}-${project.version}.jar</source>
+            <outputDirectory>deploy</outputDirectory>
+            <destName>${project.artifactId}.jar</destName>
+        </file>
+    </files>
+    -->
+</assembly>
+
