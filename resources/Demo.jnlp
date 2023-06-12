@@ -7,9 +7,9 @@
     </information>
     <resources>
         <java version="11" vendor="zulu" initial-heap-size="512m" max-heap-size="900m"/>
-        <jar href="scripting-demo-1.0-SNAPSHOT.jar" main="true" download="eager"/>
-        <jar href="flatlaf-3.1.1.jar" main="true" download="eager"/>
-        <jar href="groovy-4.0.12.jar" main="true" download="eager"/>
+        <jar href="https://github.com/rcuprak/flatlaf-defect-demo/releases/download/1.0/scripting-demo-1.0-SNAPSHOT.jar" main="true" download="eager"/>
+        <jar href="https://github.com/rcuprak/flatlaf-defect-demo/releases/download/1.0/flatlaf-3.1.1.jar" main="true" download="eager"/>
+        <jar href="https://github.com/rcuprak/flatlaf-defect-demo/releases/download/1.0/groovy-4.0.12.jar" main="true" download="eager"/>
     </resources>
     <application-desc main-class="net.cuprak.flatlaf.TestProgram">
     </application-desc>
