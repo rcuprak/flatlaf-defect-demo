@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jnlp spec="6.0+" codebase="https://github.com/rcuprak/flatlaf-defect-demo/resources"
+<jnlp spec="6.0+" codebase="https://raw.githubusercontent.com/rcuprak/flatlaf-defect-demo/main/resources"
       href="Demo.jnlp">
     <information>
         <title>Test Program</title>
